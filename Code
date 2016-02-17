@@ -2,8 +2,8 @@
 
 
 var operator = process.argv[2];
-var one = new Number(process.argv[3]); //new Number() processes argument as number and not a string
-var two = new Number(process.argv[4]);
+var one = parseInt(process.argv[3]); //new Number() processes argument as number and not a string
+var two = parseInt(process.argv[4]);
 
 
 if (operator == "add"){
