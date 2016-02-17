@@ -1,23 +1,23 @@
 #!/usr/bin/env node
 
 
-var operator = process.argv[2]
-var one = new Number(process.argv[3]) //new Number() processes argument as number and not a string
-var two = new Number(process.argv[4])
+var operator = process.argv[2];
+var one = new Number(process.argv[3]); //new Number() processes argument as number and not a string
+var two = new Number(process.argv[4]);
 
 
 if (operator == "add"){
-	var answer = one + two
+	var answer = one + two;
 	console.log("= " + answer);
 }
 
 else if (operator == "subtract"){
-	var answer = one - two
+	var answer = one - two;
 	console.log("= " + answer);
 }
 
 else if (operator == "multiply"){
-	var answer = one * two
+	var answer = one * two;
 	console.log("= " + answer);
 }
 
@@ -26,11 +26,11 @@ else if (operator == "divide"){
 		console.log("Cannot divide by 0"); 
 	}
 	else{	
-		var answer = one / two
+		var answer = one / two;
 		console.log("= " + answer);
 	}
 }
 
 else {
-	console.log("Typo. Please start over")
+	console.log("Typo. Please start over");
 }
