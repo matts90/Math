@@ -22,8 +22,13 @@ else if (operator == "multiply"){
 }
 
 else if (operator == "divide"){
-	var answer = one / two
-	console.log("= " + answer);
+	if ( two == 0){
+		console.log("Cannot divide by 0"); 
+	}
+	else{	
+		var answer = one / two
+		console.log("= " + answer);
+	}
 }
 
 else {
